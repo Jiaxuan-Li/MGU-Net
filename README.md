@@ -4,16 +4,16 @@ Multi-Scale GCN-Assisted Two-Stage Network for Joint Segmentation of Retinal Lay
 
 Codes
 ---
-    The code is coming soon.
+The code is coming soon.
 
 Results
 ---
-    The result is coming soon.
+The result is coming soon.
 
 Citation
 ---
-    If you use this code for your research, please consider citing the following paper:
+If you use this code for your research, please consider citing the following paper:
 
 Contact
 ---
-    If you have any questions, please contact jiaxuan.li@sjtu.edu.cn
+If you have any questions, please contact jiaxuan.li@sjtu.edu.cn
