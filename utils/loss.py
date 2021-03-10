@@ -5,14 +5,14 @@ from torch.autograd import Variable
 import  numpy as np
 
 
-def loss_builder1(loss_type):
+def loss_builder1():
     criterion_1_1 = nn.NLLLoss(ignore_index=255)
     criterion_1_2 = DiceLoss(class_num=3)
     criterion = [criterion_1_1,criterion_1_2]
     return criterion
 
 
-def loss_builder2(loss_type):
+def loss_builder2():
     criterion_2_1 = nn.NLLLoss(ignore_index=255)
     criterion_2_2 = DiceLoss(class_num=11)
     criterion = [criterion_2_1, criterion_2_2]

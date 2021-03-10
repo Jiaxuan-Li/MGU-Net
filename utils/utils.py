@@ -90,32 +90,6 @@ def compute_pa(ground_truth, prediction):
         return None
     return ret
 
-def compute_avg_score_batch(ret_seg):
-    BG, NFL_seg, GCL_seg, IPL_seg, INL_seg, OPL_seg, ONL_seg, IS_OS_seg, RPE_seg, Choroid_seg, Disc_seg = 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
-    if not math.isnan(ret_seg[0]):
-        BG = ret_seg[0]
-    if not math.isnan(ret_seg[1]):
-        NFL_seg = ret_seg[1]
-    if not math.isnan(ret_seg[2]):
-        GCL_seg = ret_seg[2]
-    if not math.isnan(ret_seg[3]):
-        IPL_seg = ret_seg[3]
-    if not math.isnan(ret_seg[4]):
-        INL_seg = ret_seg[4]
-    if not math.isnan(ret_seg[5]):
-        OPL_seg = ret_seg[5]
-    if not math.isnan(ret_seg[6]):
-        ONL_seg = ret_seg[6]
-    if not math.isnan(ret_seg[7]):
-        IS_OS_seg = ret_seg[7]
-    if not math.isnan(ret_seg[8]):
-        RPE_seg = ret_seg[8]
-    if not math.isnan(ret_seg[9]):
-        Choroid_seg = ret_seg[9]
-    if not math.isnan(ret_seg[10]):
-        Disc_seg = ret_seg[10]
-    avg_seg = (NFL_seg + GCL_seg + IPL_seg + INL_seg + OPL_seg + ONL_seg + IS_OS_seg + RPE_seg + Choroid_seg + Disc_seg) / 10
-    return avg_seg, NFL_seg, GCL_seg, IPL_seg, INL_seg, OPL_seg, ONL_seg, IS_OS_seg, RPE_seg, Choroid_seg, Disc_seg
 
 def compute_avg_score(ret_seg):
     BG, NFL_seg, GCL_seg, IPL_seg, INL_seg, OPL_seg, ONL_seg, IS_OS_seg, RPE_seg, Choroid_seg, Disc_seg = 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
