@@ -21,7 +21,7 @@ import torch.backends.cudnn as cudnn
 from torch.autograd import Variable
 ##### My own library #####
 import data.seg_transforms as dt
-from data.Seg_dataset import SegList
+from data.seg_dataset import segList
 from utils.logger import Logger
 from models.net_builder import net_builder
 from utils.loss import loss_builder1,loss_builder2
