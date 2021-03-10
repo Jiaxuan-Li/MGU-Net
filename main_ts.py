@@ -383,7 +383,7 @@ def main():
     eval_loader = torch.utils.data.DataLoader(val_dataset, batch_size=1, shuffle=False, num_workers=args.workers, pin_memory=False)
     test_loader = torch.utils.data.DataLoader(test_dataset, batch_size=1, shuffle=False, num_workers=args.workers, pin_memory=False)
     ##### train #####
-    #train_seg(args,train_result_path,train_loader,eval_loader)
+    train_seg(args,train_result_path,train_loader,eval_loader)
     ##### test #####
     model_best_path = osp.join(osp.join(train_result_path,'model'),'model_best.pth.tar')
     args.model_path = model_best_path
