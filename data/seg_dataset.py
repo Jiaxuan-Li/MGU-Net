@@ -11,7 +11,7 @@ import PIL
 import random
 
 
-class SegList(Dataset):
+class segList(Dataset):
     def __init__(self, data_dir, phase, transforms):
         self.data_dir = data_dir
         self.phase = phase
