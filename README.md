@@ -29,22 +29,19 @@ Run the following script to train and test the two-stage model.
 
 ## Citation
 If you use this code or dataset for your research, please cite the following papers:
-
 ```
 @misc{li2021multiscale,
-      title={Multi-scale GCN-assisted two-stage network for joint segmentation of retinal layers and disc in peripapillary OCT images}, 
-      author={Jiaxuan Li and Peiyao Jin and Jianfeng Zhu and Haidong Zou and Xun Xu and Min Tang and Minwen Zhou and Yu Gan and Jiangnan He and Yuye Ling and Yikai Su},
-      year={2021},
-      eprint={2102.04799},
-      archivePrefix={arXiv},
-      primaryClass={eess.IV}
+  title={Multi-scale GCN-assisted two-stage network for joint segmentation of retinal layers and disc in peripapillary OCT images}, 
+  author={Jiaxuan Li and Peiyao Jin and Jianfeng Zhu and Haidong Zou and Xun Xu and Min Tang and Minwen Zhou and Yu Gan and Jiangnan He and Yuye Ling and Yikai Su},
+  journal={arXiv preprint arXiv:2102.04799},
+  year={2021},
 }
 
 @inproceedings{10.1117/12.2582905,
-author = {Jiaxuan Li and Yuye Ling and Jiangnan He and Peiyao Jin and Jianfeng Zhu and Haidong Zou and Xun Xu and Shuo Shao and Yu Gan and Yikai Su},
-title = {{A GCN-assisted deep learning method for peripapillary retinal layer segmentation in OCT images}},
-booktitle = {Optical Coherence Tomography and Coherence Domain Optical Methods in Biomedicine XXV},
-year = {2021}
+  author = {Jiaxuan Li and Yuye Ling and Jiangnan He and Peiyao Jin and Jianfeng Zhu and Haidong Zou and Xun Xu and Shuo Shao and Yu Gan and Yikai Su},
+  title = {{A GCN-assisted deep learning method for peripapillary retinal layer segmentation in OCT images}},
+  booktitle = {Optical Coherence Tomography and Coherence Domain Optical Methods in Biomedicine XXV},
+  year = {2021}
 }
 ```
 
