@@ -6,12 +6,11 @@ The codes are implemented in PyTorch and trained on NVIDIA Tesla V100 GPUs.
 
 ## Introduction
 An accurate and automated tissue segmentation algorithm for retinal optical coherence tomography (OCT) images is crucial for the diagnosis of glaucoma. However, due to the presence of the optic disc, the anatomical structure of the peripapillary region of the retina is complicated and is challenging for segmentation. To address this issue, we developed a novel graph convolutional network (GCN)-assisted two-stage framework to simultaneously label the nine retinal layers and the optic disc. Specifically, a multi-scale global reasoning module is inserted between the encoder and decoder of a U-shape neural network to exploit anatomical prior knowledge and perform spatial reasoning. We conducted experiments on human peripapillary retinal OCT images. The Dice score of the proposed segmentation network is 0.820 ± 0.001 and the pixel accuracy is 0.830 ± 0.002, both of which outperform those from other state-of-the-art techniques.
-
 <div align=center><img width="750" src="https://github.com/Jiaxuan-Li/MGU-Net/blob/main/figs/fig2.png"/></div>
 
 ## Experiments
 ### Dataset
-1. Collected dataset: Download our collected dataset in this link (it will be available soon!!!).
+1. Collected dataset: Download our collected dataset at this link (it will be available soon!!!).
 2. Public dataset: [Duke SD-OCT dataset](http://people.duke.edu/~sf59/Chiu_BOE_2014_dataset.htm)
 
 ### Train and test 
