@@ -30,7 +30,7 @@ Run the following script to train and test the two-stage model.
 ## Citation
 If you use this code or dataset for your research, please cite the following papers:
 
-···
+```
 @misc{li2021multiscale,
       title={Multi-scale GCN-assisted two-stage network for joint segmentation of retinal layers and disc in peripapillary OCT images}, 
       author={Jiaxuan Li and Peiyao Jin and Jianfeng Zhu and Haidong Zou and Xun Xu and Min Tang and Minwen Zhou and Yu Gan and Jiangnan He and Yuye Ling and Yikai Su},
@@ -46,7 +46,7 @@ title = {{A GCN-assisted deep learning method for peripapillary retinal layer se
 booktitle = {Optical Coherence Tomography and Coherence Domain Optical Methods in Biomedicine XXV},
 year = {2021}
 }
-···
+```
 
 ## Acknowledgements
 This code is built on [AI-Challenger-Retinal-Edema-Segmentation](https://github.com/ShawnBIT/AI-Challenger-Retinal-Edema-Segmentation) and [GloRe](https://github.com/facebookresearch/GloRe). We thank the authors for sharing their codes.
