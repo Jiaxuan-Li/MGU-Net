@@ -1,9 +1,8 @@
 
 # MGU-Net
-
 Multi-Scale GCN-Assisted Two-Stage Network for Joint Segmentation of Retinal Layers and Disc in Peripapillary OCT Images
 
-The code is implemented in PyTorch and trained on NVIDIA Tesla V100 GPUs.
+The codes are implemented in PyTorch and trained on NVIDIA Tesla V100 GPUs.
 
 ## Introduction
 An accurate and automated tissue segmentation algorithm for retinal optical coherence tomography (OCT) images is crucial for the diagnosis of glaucoma. However, due to the presence of the optic disc, the anatomical structure of the peripapillary region of the retina is complicated and is challenging for segmentation. To address this issue, we developed a novel graph convolutional network (GCN)-assisted two-stage framework to simultaneously label the nine retinal layers and the optic disc. Specifically, a multi-scale global reasoning module is inserted between the encoder and decoder of a U-shape neural network to exploit anatomical prior knowledge and perform spatial reasoning. We conducted experiments on human peripapillary retinal OCT images. The Dice score of the proposed segmentation network is 0.820 ± 0.001 and the pixel accuracy is 0.830 ± 0.002, both of which outperform those from other state-of-the-art techniques.
@@ -27,9 +26,10 @@ python main_ts.py --name tsmgunet -d ./data/dataset --batch-size 1 --epoch 50 --
 
 ### Results on the public dataset
 <div align=center><img width="700" src="https://github.com/Jiaxuan-Li/MGU-Net/blob/main/figs/fig4.png"/></div>
+For more results, please refer to our [paper](https://arxiv.org/abs/2102.04799)
 
 ## Citation
-If you use this code or dataset for your research, please cite the following papers:
+If you use the codes or collected dataset for your research, please cite the following papers:
 ```
 @misc{li2021multiscale,
   title={Multi-scale GCN-assisted two-stage network for joint segmentation of retinal layers and disc in peripapillary OCT images}, 
@@ -47,7 +47,7 @@ If you use this code or dataset for your research, please cite the following pap
 ```
 
 ## Acknowledgements
-This code is built on [AI-Challenger-Retinal-Edema-Segmentation](https://github.com/ShawnBIT/AI-Challenger-Retinal-Edema-Segmentation) and [GloRe](https://github.com/facebookresearch/GloRe). We thank the authors for sharing their codes.
+The codes are built on [AI-Challenger-Retinal-Edema-Segmentation](https://github.com/ShawnBIT/AI-Challenger-Retinal-Edema-Segmentation) and [GloRe](https://github.com/facebookresearch/GloRe). We sincerely appreciate the authors for sharing their codes.
 
 ## Contact
 If you have any questions, please contact jiaxuan.li@sjtu.edu.cn
