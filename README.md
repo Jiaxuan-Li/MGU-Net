@@ -25,7 +25,7 @@ python main_ts.py --name tsmgunet -d ./data/dataset --batch-size 1 --epoch 50 --
 
 ### Results on the public dataset
 <div align=center><img width="700" src="https://github.com/Jiaxuan-Li/MGU-Net/blob/main/figs/fig4.png"/></div>
-For more results, please refer to our [paper](https://arxiv.org/abs/2102.04799)
+For more results, please refer to our [paper](https://arxiv.org/pdf/2102.04799)
 
 ## Citation
 If you use the codes or collected dataset for your research, please cite the following papers:
