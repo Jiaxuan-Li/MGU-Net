@@ -17,8 +17,9 @@ An accurate and automated tissue segmentation algorithm for retinal optical cohe
 
 ### Train and test 
 Run the following script to train and test the two-stage model.
-
-`python main_ts.py --name tsmgunet -d ./data/dataset --batch-size 1 --epoch 50 --lr 0.001`  
+```
+python main_ts.py --name tsmgunet -d ./data/dataset --batch-size 1 --epoch 50 --lr 0.001
+```
 
 ## Results
 ### Results on the collected dataset
