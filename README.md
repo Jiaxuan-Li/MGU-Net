@@ -17,6 +17,7 @@ An accurate and automated tissue segmentation algorithm for retinal optical cohe
 
 ### Train and test 
 Run the following script to train and test the two-stage model.
+
 `python main_ts.py --name tsmgunet -d ./data/dataset --batch-size 1 --epoch 50 --lr 0.001`  
 
 ## Results
@@ -27,11 +28,26 @@ Run the following script to train and test the two-stage model.
 <div align=center><img width="700" src="https://github.com/Jiaxuan-Li/MGU-Net/blob/main/figs/fig4.png"/></div>
 
 ## Citation
-If you use this code or dataset for your research, please consider citing the following papers:
+If you use this code or dataset for your research, please cite the following papers:
 
-[1] Jiaxuan Li, Yuye Ling, Jiangnan He, Peiyao Jin, Jianfeng Zhu, Haidong Zou, Xun Xu, Shuo Shao, Yu Gan, Yikai Su, "A GCN-assisted deep learning method for peripapillary retinal layer segmentation in OCT images," Proc. SPIE 11630, Optical Coherence Tomography and Coherence Domain Optical Methods in Biomedicine XXV, 1163010 (5 March 2021); https://doi.org/10.1117/12.2582905
+`
+@misc{li2021multiscale,
+      title={Multi-scale GCN-assisted two-stage network for joint segmentation of retinal layers and disc in peripapillary OCT images}, 
+      author={Jiaxuan Li and Peiyao Jin and Jianfeng Zhu and Haidong Zou and Xun Xu and Min Tang and Minwen Zhou and Yu Gan and Jiangnan He and Yuye Ling and Yikai Su},
+      year={2021},
+      eprint={2102.04799},
+      archivePrefix={arXiv},
+      primaryClass={eess.IV}
+}
 
-[2] Li J, Jin P, Zhu J, et al. Multi-scale GCN-assisted two-stage network for joint segmentation of retinal layers and disc in peripapillary OCT images[J]. arXiv preprint arXiv:2102.04799, 2021.
+@inproceedings{10.1117/12.2582905,
+author = {Jiaxuan Li and Yuye Ling and Jiangnan He and Peiyao Jin and Jianfeng Zhu and Haidong Zou and Xun Xu and Shuo Shao and Yu Gan and Yikai Su},
+title = {{A GCN-assisted deep learning method for peripapillary retinal layer segmentation in OCT images}},
+booktitle = {Optical Coherence Tomography and Coherence Domain Optical Methods in Biomedicine XXV},
+year = {2021},
+}
+
+`
 
 ## Acknowledgements
 This code is built on [AI-Challenger-Retinal-Edema-Segmentation](https://github.com/ShawnBIT/AI-Challenger-Retinal-Edema-Segmentation) and [GloRe](https://github.com/facebookresearch/GloRe). We thank the authors for sharing their codes.
