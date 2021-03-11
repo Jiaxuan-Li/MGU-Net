@@ -46,7 +46,6 @@ title = {{A GCN-assisted deep learning method for peripapillary retinal layer se
 booktitle = {Optical Coherence Tomography and Coherence Domain Optical Methods in Biomedicine XXV},
 year = {2021},
 }
-
 `
 
 ## Acknowledgements
