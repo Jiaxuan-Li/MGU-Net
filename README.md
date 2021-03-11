@@ -12,7 +12,7 @@ The result is coming soon.
 
 Citation
 ---
-If you use this code for your research, please consider citing the following papers:
+If you use this code or dataset for your research, please consider citing the following papers:
 
 [1] Jiaxuan Li, Yuye Ling, Jiangnan He, Peiyao Jin, Jianfeng Zhu, Haidong Zou, Xun Xu, Shuo Shao, Yu Gan, Yikai Su, "A GCN-assisted deep learning method for peripapillary retinal layer segmentation in OCT images," Proc. SPIE 11630, Optical Coherence Tomography and Coherence Domain Optical Methods in Biomedicine XXV, 1163010 (5 March 2021); https://doi.org/10.1117/12.2582905
 
