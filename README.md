@@ -36,13 +36,6 @@ If you use the codes or collected dataset for your research, please cite the fol
   journal={arXiv preprint arXiv:2102.04799},
   year={2021}
 }
-
-@inproceedings{10.1117/12.2582905,
-  author={Jiaxuan Li and Yuye Ling and Jiangnan He and Peiyao Jin and Jianfeng Zhu and Haidong Zou and Xun Xu and Shuo Shao and Yu Gan and Yikai Su},
-  title={A GCN-assisted deep learning method for peripapillary retinal layer segmentation in OCT images},
-  booktitle={Optical Coherence Tomography and Coherence Domain Optical Methods in Biomedicine XXV},
-  year={2021}
-}
 ```
 
 ## Acknowledgements
