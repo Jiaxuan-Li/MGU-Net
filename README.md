@@ -28,7 +28,7 @@ python main_ts.py --name tsmgunet -d ./data/dataset --batch-size 1 --epoch 50 --
 For more results, please refer to our [paper](https://arxiv.org/pdf/2102.04799).
 
 ## Citation
-If you use the codes or collected dataset for your research, please cite the following papers:
+If you use the codes or collected dataset for your research, please cite the following paper:
 ```
 @misc{li2021multiscale,
   title={Multi-scale GCN-assisted two-stage network for joint segmentation of retinal layers and disc in peripapillary OCT images}, 
