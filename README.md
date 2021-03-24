@@ -30,11 +30,16 @@ For more results, please refer to our [paper](https://arxiv.org/pdf/2102.04799).
 ## Citation
 If you use the codes or collected dataset for your research, please cite the following paper:
 ```
-@misc{li2021multiscale,
-  title={Multi-scale GCN-assisted two-stage network for joint segmentation of retinal layers and disc in peripapillary OCT images}, 
-  author={Jiaxuan Li and Peiyao Jin and Jianfeng Zhu and Haidong Zou and Xun Xu and Min Tang and Minwen Zhou and Yu Gan and Jiangnan He and Yuye Ling and Yikai Su},
-  journal={arXiv preprint arXiv:2102.04799},
-  year={2021}
+@article{Li:21,
+author = {Jiaxuan Li and Peiyao Jin and Jianfeng Zhu and Haidong Zou and Xun Xu and Min Tang and Minwen Zhou and Yu Gan and Jiangnan He and Yuye Ling and Yikai Su},
+journal = {Biomed. Opt. Express},
+number = {4},
+pages = {2204--2220},
+title = {Multi-scale GCN-assisted two-stage network for joint segmentation of retinal layers and discs in peripapillary OCT images},
+volume = {12},
+year = {2021},
+url = {http://www.osapublishing.org/boe/abstract.cfm?URI=boe-12-4-2204},
+doi = {10.1364/BOE.417212},
 }
 ```
 
