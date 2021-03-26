@@ -10,7 +10,7 @@ An accurate and automated tissue segmentation algorithm for retinal optical cohe
 
 ## Experiments
 ### Dataset
-1. Collected dataset: Download our collected dataset at this link (it will be available soon!!!).
+1. Collected dataset: Download our [collected dataset](http://www.yuyeling.com/project/mgu-net/).
 2. Public dataset: [Duke SD-OCT dataset](http://people.duke.edu/~sf59/Chiu_BOE_2014_dataset.htm)
 
 ### Train and test 
