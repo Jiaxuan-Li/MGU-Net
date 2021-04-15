@@ -48,4 +48,4 @@ doi = {10.1364/BOE.417212},
 The codes are built on [AI-Challenger-Retinal-Edema-Segmentation](https://github.com/ShawnBIT/AI-Challenger-Retinal-Edema-Segmentation) and [GloRe](https://github.com/facebookresearch/GloRe). We sincerely appreciate the authors for sharing their codes.
 
 ## Contact
-If you have any questions, please contact jiaxuan.li@sjtu.edu.cn
+If you have any questions, please do not hesitate to contact jiaxuan.li@sjtu.edu.cn
