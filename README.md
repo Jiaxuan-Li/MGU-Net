@@ -14,7 +14,7 @@ An accurate and automated tissue segmentation algorithm for retinal optical cohe
 2. Public dataset: Download [Duke SD-OCT dataset](http://people.duke.edu/~sf59/Chiu_BOE_2014_dataset.htm)
 
 ### Train and test 
-Run the following script to train and test the two-stage model.
+Run the following script to train and test the our model.
 ```
 python main_ts.py --name tsmgunet -d ./data/dataset --batch-size 1 --epoch 50 --lr 0.001
 ```
