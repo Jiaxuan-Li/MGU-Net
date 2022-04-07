@@ -11,8 +11,8 @@ An accurate and automated tissue segmentation algorithm for retinal optical cohe
 ## Experiments
 ### Dataset
 1. Collected dataset: Download our [collected dataset](http://www.yuyeling.com/project/mgu-net/).
-<br />&ensp;The labeled images are grayscale images. Labels and corresponding pixel values are as follows:
-<br />&ensp;RNFL=26, GCL=51, IPL=77, INL=102, OPL=128, ONL=153, IS/OS=179, RPE=204, Choroid=230, Optic Disc=255
+<br />The labeled images are grayscale images. Labels and corresponding pixel values are as follows:
+<br />RNFL=26, GCL=51, IPL=77, INL=102, OPL=128, ONL=153, IS/OS=179, RPE=204, Choroid=230, Optic Disc=255
 
 2. Public dataset: Download [Duke SD-OCT dataset](http://people.duke.edu/~sf59/Chiu_BOE_2014_dataset.htm)
 
