@@ -34,7 +34,7 @@ For more details, please refer to our [paper](https://www.osapublishing.org/boe/
 ## Citation
 If you use the codes or collected dataset for your research, please cite the following paper:
 ```
-@article{Li:21,
+@article{li2021mgunet,
 author = {Jiaxuan Li and Peiyao Jin and Jianfeng Zhu and Haidong Zou and Xun Xu and Min Tang and Minwen Zhou and Yu Gan and Jiangnan He and Yuye Ling and Yikai Su},
 journal = {Biomed. Opt. Express},
 number = {4},
